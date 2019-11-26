@@ -1,5 +1,0 @@
-1.https://www.geeksforgeeks.org/data-preprocessing-machine-learning-python/
-2.https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
-3.https://www.youtube.com/watch?v=_jnhXzY1HCw&list=PLn0fE2DNeBlYPKynDpNh7pKiV3Tb1HSoJ
-4.https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-5.https://medium.com/datadriveninvestor/data-preprocessing-for-machine-learning-188e9eef1d2c
