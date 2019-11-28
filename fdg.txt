@@ -1,1 +1,2 @@
 pip install git+git://github.com/tensorflow/skflow.git
+https://www.kdnuggets.com/2016/02/scikit-flow-easy-deep-learning-tensorflow-scikit-learn.html
