@@ -4,5 +4,5 @@ from ipywidgets import *
 from IPython.display import display
 from IPython.html import widgets
 
-text = widgets.Text(description="Domain to ping", width=200)
-display(text)
+
+http://www.insightsbot.com/tensorflow-tutorial-iris-classification-with-sgd/
