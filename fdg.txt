@@ -7,7 +7,7 @@ from IPython.html import widgets
 deploy-a-machine-learning-model-using-flask-da580f84e60c
 
 http://www.insightsbot.com/tensorflow-tutorial-iris-classification-with-sgd/
-
+https://poc-ml.notebook.us-east-1.sagemaker.aws/tree
 
 
 The file with extention "ipynb" of Jupyter (or IPython) is a JSON file. And the cells are under the name "cells" ["cells"]. Then you choose the number of the cell [0] and to get the source choose "source" ["source"]. In return you get an array with one element so you need to get the first element [0].
