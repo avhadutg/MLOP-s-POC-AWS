@@ -1,5 +1,7 @@
 pip install git+git://github.com/tensorflow/skflow.git
 
+https://docs.aws.amazon.com/sagemaker/latest/dg/build-container-to-train-script-get-started.html
+
 from ipywidgets import *
 from IPython.display import display
 from IPython.html import widgets
