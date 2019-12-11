@@ -26,3 +26,15 @@ The file with extention "ipynb" of Jupyter (or IPython) is a JSON file. And the 
 '2+2'
 >>> eval(data["cells"][1]["source"][0])
 4
+
+
+
+FROM tensorflow/tensorflow:2.0.0a0
+
+RUN pip install sagemaker-containers
+
+# Copies the training code inside the container
+COPY train.py /opt/ml/code/train.py
+
+# Defines train.py as script entrypoint
+ENV SAGEMAKER_PROGRAM train.py
