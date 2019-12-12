@@ -40,3 +40,18 @@ COPY train.py /opt/ml/code/train.py
 
 # Defines train.py as script entrypoint
 ENV SAGEMAKER_PROGRAM train.py
+
+
+
+
+---
+version: "3"
+services:
+  flask:
+    image: webapp-flask
+    volumes:
+      - /home/master/project
+  web:
+    build: .
+    ports:
+      - "5000:5000"
