@@ -47,7 +47,7 @@ ENV SAGEMAKER_PROGRAM train.py
 ---
 version: "3"
 services:
-  flask:
+  flaskhttp://hplgit.github.io/web4sciapps/doc/pub/._part0008_web4sa_plain.html:
     image: webapp-flask
     volumes:
       - /home/master/project
@@ -55,3 +55,8 @@ services:
     build: .
     ports:
       - "5000:5000"
+
+
+
+
+http://hplgit.github.io/web4sciapps/doc/pub/._part0008_web4sa_plain.html
